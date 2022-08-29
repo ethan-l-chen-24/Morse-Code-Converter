@@ -1,6 +1,6 @@
 # Morse-Code-Converter
 
-This repo contains all of the code for my final project in ENGS 31 - Digital Electronics, 22X. My partner and I created a fully functioning keyboard-to-speaker morse code converter that runs on an FPGA. 
+This repo contains all of the code for my final project in ENGS 31 - Digital Electronics, 22X. My partner and I created a fully functioning keyboard-to-speaker morse code converter that runs on an FPGA. It uses UART protocol to interact between the Keyboard and computer, and SPI protocol to interact with the peripheral speaker. 
 
 ![morse](https://user-images.githubusercontent.com/79673816/187173349-e47ed86f-ecba-49ba-9c77-9e1f327e368c.gif)
 
