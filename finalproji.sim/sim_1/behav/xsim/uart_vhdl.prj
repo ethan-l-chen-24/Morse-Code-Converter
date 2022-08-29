@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../finalproji.srcs/sources_1/new/SerialRx.vhd" \
+"../../../../../Old_SCI_Lab/SerialTx.vhd" \
+"../../../../mux7seg.vhd" \
+"../../../../../Old_SCI_Lab/old_sci_lab_top_level.vhd" \
+
+# Do not sort compile order
+nosort

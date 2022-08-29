@@ -1,0 +1,21 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../finalproji.srcs/sources_1/new/SerialRx.vhd" \
+"../../../../../Lab5/VHDL/lab5_input_conditioning.vhd" \
+"../../../../finalproji.srcs/sources_1/imports/ES32_22X/finalproji/mux7seg.vhd" \
+"../../../../finalproji.srcs/sources_1/new/queue.vhd" \
+"../../../../finalproji.srcs/sources_1/new/uart_to_queue.vhd" \
+"../../../../finalproji.srcs/sources_1/imports/ES32_22X/Old_SCI_Lab/old_sci_lab_top_level.vhd" \
+"../../../../finalproji.srcs/sources_1/new/morse_datapath.vhd" \
+"../../../../finalproji.srcs/sources_1/new/morse_controller.vhd" \
+"../../../../finalproji.srcs/sources_1/new/audio_handler.vhd" \
+"../../../../finalproji.srcs/sources_1/new/final_project_top_level.vhd" \
+"../../../../finalproji.srcs/sources_1/new/audio_handler_hardware.vhd" \
+"../../../../../Lab5/VHDL/lab5_clock_generation.vhd" \
+"../../../../finalproji.srcs/sim_1/imports/Old_SCI_Lab/SerialRx_tb.vhd" \
+"../../../../finalproji.srcs/sim_1/new/queue_tb.vhd" \
+"../../../../finalproji.srcs/sim_1/new/morse_tb.vhd" \
+"../../../../finalproji.srcs/sim_1/new/audio_handler_tb.vhd" \
+
+# Do not sort compile order
+nosort
